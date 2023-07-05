@@ -1,0 +1,15 @@
+{
+  "name": "test-capi",
+  "packageManager": "yarn@1.22.19",
+  "devDependencies": {
+    "parcel": "2.9.3",
+    "process": "0.11.10"
+  },
+  "dependencies": {
+    "capi": "0.1.0-gamma.1"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules dist .parcel-cache",
+    "dev": "yarn parcel src/index.html"
+  }
+}
