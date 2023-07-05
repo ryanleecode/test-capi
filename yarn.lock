@@ -35,6 +35,10 @@
   version "0.0.0-TODO"
   resolved "https://capi.dev/@v0.1.0-gamma.1/ed956cd5bde67584/polkadot-dev.tar#ca8c2363baf52547f9bb5b8c00209b1b563d1ac7"
 
+"@capi/polkadot@https://capi.dev/@v0.1.0-gamma.1/315c963e5803ec98/polkadot.tar":
+  version "0.0.0-TODO"
+  resolved "https://capi.dev/@v0.1.0-gamma.1/315c963e5803ec98/polkadot.tar#f57be7a018c8b65c1a2eee2e6e5461bff0d68015"
+
 "@capi/polkadot@https://capi.dev/@v0.1.0-gamma.1/ed956cd5bde67584/polkadot.tar":
   version "0.0.0-TODO"
   resolved "https://capi.dev/@v0.1.0-gamma.1/ed956cd5bde67584/polkadot.tar#f9432b3f6e4d78ee1a08310de4b298a2d844d215"
@@ -1930,7 +1934,7 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite@^4.3.9:
+vite@4.3.9:
   version "4.3.9"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.9.tgz#db896200c0b1aa13b37cdc35c9e99ee2fdd5f96d"
   integrity sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==

@@ -1,7 +1,7 @@
 # test-capi
 
 ```
-yarn
+yarn sync && yarn
 
 yarn dev # parcel
 # or
