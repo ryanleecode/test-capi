@@ -6,10 +6,12 @@
     "process": "0.11.10"
   },
   "dependencies": {
-    "capi": "0.1.0-gamma.1"
+    "capi": "0.1.0-gamma.1",
+    "vite": "4.3.9"
   },
   "scripts": {
     "clean": "rm -rf node_modules dist .parcel-cache",
-    "dev": "yarn parcel src/index.html"
+    "dev": "yarn parcel src/index.html",
+    "dev2": "vite src/"
   }
 }

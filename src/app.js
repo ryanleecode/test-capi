@@ -5,14 +5,12 @@
  * from https://github.com/paritytech/capi/blob/main/examples/raw_rpc/subscription.eg.ts
  */
 
-import { polkadotDev } from "@capi/polkadot-dev"
+import { polkadot } from "@capi/polkadot"
 import { $, known } from "capi"
-console.log("hello")
-
 
 async function main() {
   /// Get an async iterator, which yields subscription events.
-  const headerIter = polkadotDev.connection
+  const headerIter = polkadot.connection
     .subscribe("chain_subscribeFinalizedHeads", "chain_unsubscribeAllHeads")
     .iter()
 
